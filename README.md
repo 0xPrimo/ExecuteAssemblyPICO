@@ -7,7 +7,7 @@ A Position Independent Code (PIC) implementation of the execute-assembly command
 ## How it Works?
 
 - The loader creates a named pipe and sets it as the current process's stdout to capture the executed .NET assembly output.
-- It then loads the PICO ".NET assembly loader".
+- It then loads the PICO ".NET assembly runner".
 - Finally, it passes the .NET assembly and its arguments to the PICO's exported function "ExecuteAssembly".
 
 ## Build
